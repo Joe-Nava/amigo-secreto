@@ -12,7 +12,11 @@ function agregarAmigo() {
     
     listaAmigos.push(inputAmigo.value);
     ulListaAmigos.innerHTML += `<li>${inputAmigo.value}</li>`;
+    limpiarCaja();
 }
+
+function limpiarCaja(){
+    document.querySelector("#amigo").value = '';
 
 function sortearAmigo(){
     const numAleatorio = Math.floor(Math.random() * listaAmigos.length);
