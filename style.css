@@ -1,9 +1,9 @@
 :root {
-    --color-primary: green;
-    --color-secondary: #FFF9EB;
+    --color-primary: #443850;
+    --color-secondary: #BBBE64;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #8E5572;
+    --color-button-hover: #C1839F;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -130,13 +130,13 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #FF0000;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
